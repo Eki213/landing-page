@@ -16,6 +16,23 @@ body {
     background-color: #1F2937;
 }
 
+.header {
+    padding: 25px 180px 120px 170px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
 .hero .text, .links a {
     font-size: 18px;
     color: #E5E7EB;
@@ -94,6 +111,8 @@ button {
 }
 
 ul {
+    display: flex;
+    gap: 20px;
     margin: 0;
     padding: 0;
     list-style: none;
