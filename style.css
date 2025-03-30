@@ -135,6 +135,12 @@ button {
     padding: 40px 100px;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
 ul {
     display: flex;
     gap: 20px;
