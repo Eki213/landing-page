@@ -111,13 +111,17 @@ button {
 }
 
 .quote {
+    display: flex;
+    flex-direction: column;
     font-style: italic;
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
+    padding: 80px 180px;
 }
 
 .author {
+    align-self: flex-end;
     font-size: 25px;
     font-weight: 700;
     font-style: normal;
