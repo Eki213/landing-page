@@ -127,6 +127,14 @@ button {
     font-style: normal;
 }
 
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px 160px;
+    padding: 40px 100px;
+}
+
 ul {
     display: flex;
     gap: 20px;
